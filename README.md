@@ -1,1 +1,5 @@
-# Multilayer-Perceptron
+# Multilayer Perceptron
+The objective of this project was to design a Multilayer Perceptron architecture to optimally classify images from the Fashion-MNIST dataset. 
+The study of image classification in machine learning is a broad field entailing a variety of network architectures. Multilayer Perceptrons(MLP) and Convolutional Neural Networks (CNN) have been demonstrated to be effective at this task (LeCun 1995). For training, the Fashion-MINST dataset, consisting of 60 000 training images and 10 000 testing images in 28x28 grayscale associated with ten labelled classes, is used. The data was vectorized, normalized, and further augmented by various image transformation techniques to acquire more data with further variation and increase its information potential. 
+
+This project sought an optimized model for grayscale image classification, experimenting with MLP architecture in the form of width, depth and activation function type. In addition, we explored optimization hyperparameters such as learning rate and Epoque. Different weight initialization techniques were also deployed, including randomization with zero mean gaussian distribution and activation function-specific initialization. 
